@@ -1,0 +1,555 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link href="{% static 'Images/faviconi.ico' %}" rel="icon" sizes="" type="image/png">
+    <script src="{% static 'js/jquery-1.10.2.min.js' %}"></script>
+ 
+    <title>Habeeb's Portfolio</title>
+    <script src="{% static 'js/index.js' %}"></script>
+
+</head>
+
+<body>
+
+
+    <div class="content">
+        <div class="menu_wrapper">
+
+            <header>
+                <div class="sm_screen_cntrl">
+                    <div class="icons" data-aos="fade-down" data-aos-duration="1500">
+                        <i class="fa fa-bars fa-spin open"></i>
+                        <i class="fa fa-times fa-spin close"></i>
+                    </div>
+                </div>
+                <div class="menu_inner" data-aos="fade-down" data-aos-duration="1500">
+                    <!-- <a href="#hero">
+                        <div class="logo">HABEEB.</div>
+                    </a> -->
+                    <!-- <div class="tri"></div> -->
+
+                    <div class="nav_items_wrapper">
+                        <ul>
+                            <a href="#skills">
+                                <li class="n_item">Skills.</li>
+                            </a>
+
+                            <a href="#technology">
+                                <li class="n_item">Technologies.</li>
+                            </a>
+                            <div class="line"></div>
+                            <a href="#projects">
+                                <li class="n_item">Projects.</li>
+                            </a>
+                            <a href="#contact">
+                                <li class="n_item">Contact.</li>
+                            </a>
+                            <a href="{% static 'pdf/Habeeb-Adewale-Adebimpe.pdf' %}" download>
+                                <li class="n_item">Resume. <i class="fa fa-arrow-down" style="background: transparent; padding:0;"></i></li>
+                            </a>
+
+                            <a href="">
+                                <li class="n_item">
+                                    <a href="https://twitter.com/coding__always" target="_blank"><i
+                                            class="fa fa-twitter"></i></a>
+
+                                    <a href="https://github.com/Tech-Genius/" target="_blank"><i
+                                            class="fa fa-github"></i></a>
+
+                                    <a href="https://www.linkedin.com/in/habeeb-adebimpe-341084207/" target="_blank"><i
+                                            class="fa fa-linkedin"></i></a>
+                                </li>
+                            </a>
+                            <!-- <li class="n_item"></li> -->
+                        </ul>
+                    </div>
+
+            </header>
+        </div>
+        <!-- header -->
+
+        <div class="right_content"><a name="hero"></a>
+            <div class="main_info">
+                <div class="box" id="text" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="intro_text">
+
+                        <h3>Hey!, I'm Habeeb</h3>
+                        <p>A Full-Stack Software Developer commited to solving problems by thinking creatively and
+                            logicaly. <br> I strive to convert the results of my thinking into <br> lines of readable,
+                            executable and reusable <br> code.</p>
+                        <div class="intro_button">
+                            <a href="#skills"><button>My Skills <i class="fa fa-arrow-down"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" id="img" data-aos="fade-left" data-aos-duration="1500">
+                    <img src="{% static 'Images/intro-section-illustration.png' %}" alt="">
+                </div>
+
+            </div>
+
+
+
+            <div class="service"> <a name="skills"></a>
+                <div class="service_intro">
+                    <h3>My Skills</h3>
+                    <p>I provide different services which ranges from initial
+                        Design to Deployment, <br> Anywhere, Anytime</p>
+                </div>
+
+                <div class="service_inner">
+                    <div class="service_box" data-aos="fade-right" data-aos-duration="1500">
+                        <div class="service_text">
+                            <i class="fa fa-code top_icon"></i>
+                            <h3 class="h3_has_gradient">Front-End Development</h3>
+                            <p>I convert UI designs and Wireframes, into their live versions, I build scalable user
+                                interfaces with the highly demanded technologies in the Front-End world. </p>
+                            <button data-aos="fade-up" data-aos-duration="1800">I Need This <i
+                                        class="fa fa-envelope-o"></i> </button></button>
+
+                        </div>
+                    </div>
+
+                    <div class="service_box" id="img" data-aos="fade-left" data-aos-duration="1500">
+                        <img src="{% static 'Images/service-1.png' %}" alt="">
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="service_inner">
+
+                    <div class="service_box" id="img" data-aos="fade-right" data-aos-duration="1500">
+                        <img src="{% static 'Images/service-2.png' %}" alt="">
+                    </div>
+
+                    <div class="service_box" data-aos="fade-left" data-aos-duration="1500">
+                        <div class="service_text">
+                            <i class="fa fa-cogs top_icon"></i>
+                            <h3 class="h3_has_gradient">Back-End Development</h3>
+                            <p>Considering security as a high priority, I write comprehendable backend functionalities,
+                                making a web application more dynamic, scalable, secured and easy to manage. I write
+                                queries, API's and lot's more with the highly demanded technologies in the Back-End
+                                world. </p>
+                            <button data-aos="fade-up" data-aos-duration="1800">I Need This <i
+                                        class="fa fa-envelope-o"></i> </button></button>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+                <div class="service_inner">
+
+
+
+                    <div class="service_box" data-aos="fade-right" data-aos-duration="1500">
+                        <div class="service_text">
+                            <i class="fa fa-laptop top_icon"></i>
+                            <h3 class="h3_has_gradient">Website Design With CMS</h3>
+                            <p>I create awesome website designs with the use of CMS (Wordpress). I use this already
+                                configured tool to bring your dream web application to life. </p>
+                            <button data-aos="fade-up" data-aos-duration="1800">I Need This <i
+                                        class="fa fa-envelope-o"></i> </button>
+
+                        </div>
+                    </div>
+
+
+                    <div class="service_box" id="img" data-aos="fade-left" data-aos-duration="1500">
+                        <img src="{% static 'Images/service-3.png' %}" alt="">
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+            <!-- technologies -->
+
+
+            <div class="technologies"><a name="technology"></a>
+                <div class="technology_intro">
+                    <h3>My Technology Stack</h3>
+                    <p>Here are the technologies I use in executing my creative solutions!</p>
+                </div>
+                <div class="technologies_inner">
+                    <div class="technology_box">
+                        <div class="technology_img">
+                            <img src="{% static 'Images/python.png' %}" alt="">
+                        </div>
+                        <h3>Python</h3>
+                    </div>
+
+                    <div class="technology_box">
+                        <div class="technology_img">
+                            <img src="{% static 'Images/django.png' %}" alt="">
+                        </div>
+                        <h3>Django</h3>
+                    </div>
+
+                    <div class="technology_box">
+                        <div class="technology_img">
+                            <img src="{% static 'Images/react.png' %}" alt="">
+                        </div>
+                        <h3>React.Js</h3>
+                    </div>
+
+                    <div class="technology_box">
+                        <div class="technology_img">
+                            <img src="{% static 'Images/git-github.png' %}">
+                        </div>
+                        <h3>Git/Github</h3>
+                    </div>
+
+
+                    <div class="technology_box">
+                        <div class="technology_img">
+                            <img src="{% static 'Images/html.png' %}" alt="">
+                        </div>
+                        <h3>HTML5</h3>
+                    </div>
+
+                    <div class="technology_box">
+                        <div class="technology_img">
+                            <img src="{% static 'Images/css.png' %}">
+                        </div>
+                        <h3>CSS3</h3>
+                    </div>
+
+                    <div class="technology_box">
+                        <div class="technology_img">
+                            <img src="{% static 'Images/postgress.png' %}">
+                        </div>
+                        <h3>PostgreSQL</h3>
+                    </div>
+
+                    <div class="technology_box">
+                        <div class="technology_img">
+                            <img src="{% static 'Images/javascript.png' %}">
+                        </div>
+                        <h3>JavaScript</h3>
+                    </div>
+
+                    <div class="technology_box">
+                        <div class="technology_img">
+                            <img src="{% static 'Images/jquery.png' %}">
+                        </div>
+                        <h3>Jquery</h3>
+                    </div>
+
+                    <div class="technology_box">
+                        <div class="technology_img">
+                            <img src="{% static 'Images/bootstrap.png' %}">
+                        </div>
+                        <h3>Bootstrap</h3>
+                    </div>
+
+
+                    <div class="technology_box">
+                        <div class="technology_img">
+                            <img src="{% static 'Images/wordpress.png' %}">
+                        </div>
+                        <h3>WordPress</h3>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="projects"><a name="projects"></a>
+                <div class="projects_intro">
+                    <h3>Projects</h3>
+                    <p> Personal, group and brand projects have worked on</p>
+                </div>
+
+                <div class="projects_inner">
+                    <div class="projects_box" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img src="{% static 'Images/meal-tab-screenshot.png' %}" alt="">
+                        <div class="project_links">
+                            <a href="https://github.com/Tech-Genius/Meal-tab" target="_blank"><i
+                                    class="fa fa-github"></i></a>
+                            <a href="http://meal-tab.herokuapp.com/" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+
+                    </div>
+
+                
+                        <div class="projects_box" data-aos="zoom-in-up" data-aos-duration="1500">
+                            <img src="{% static 'Images/gym-trainer.png' %}" alt="">
+                            <div class="project_links">
+                                <a href="https://github.com/Tech-Genius/gym-trainer" target="_blank"><i
+                                        class="fa fa-github"></i></a>
+                                <a href="https://gym-trainee.up.railway.app/" target="_blank"><i class="fa fa-link"></i></a>
+                            </div>
+    
+                        </div>
+
+
+
+
+                    <div class="projects_box" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img src="{% static 'Images/word-counter=screenshot.png' %}" alt="">
+                        <div class="project_links">
+                            <a href="https://github.com/Tech-Genius/Word-Counter" target="_blank"><i
+                                    class="fa fa-github"></i></a>
+                            <a href="http://count-text-amount.herokuapp.com/" target="_blank"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="projects_box" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img src="{% static 'Images/best-track-screenshot.png' %}" alt="">
+                        <div class="project_links">
+                            <a href="https://besttrack.com.ng/" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="projects_box" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img src="{% static 'Images/fitly-screenshot.png' %}" alt="">
+                        <div class="project_links">
+                            <a href="https://github.com/Tech-Genius/fitly" target="_blank"><i
+                                    class="fa fa-github"></i></a>
+                            <a href="https://fitly-app.herokuapp.com/" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="projects_box" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img src="{% static 'Images/auth-wiki-screenshot.png' %}" alt="">
+                        <div class="project_links">
+                            <a href="https://github.com/zuri-training/auth-wiki-team7" target="_blank"><i
+                                    class="fa fa-github"></i></a>
+                            <a href="https://auth-team7.herokuapp.com/" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="projects_box" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img src="{% static 'Images/rootbuoy-screenshot.png' %}" alt="">
+                        <div class="project_links">
+                            <a href="https://rootbuoy.com.ng/" target="_blank"><i class="fa fa-link"></i></a>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="projects_box" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img src="{% static 'Images/wears-screenshot.png' %}" alt="">
+                        <div class="project_links">
+                            <a href="https://wearslogo.netlify.app/ " target="_blank"><i class="fa fa-link"></i></a>
+
+                        </div>
+                    </div>
+
+
+                    <div class="projects_box" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img src="{% static 'Images/pagmatic-screenshot.png' %}" alt="">
+                        <div class="project_links">
+                            <a href="https://github.com/Tech-Genius/water" target="_blank"><i
+                                    class="fa fa-github"></i></a>
+
+                            <a href="https://tech-genius.github.io/water/" target="_blank"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+            <div class="contact"><a name="contact"></a>
+                <div class="contact_intro">
+                    <h3>Contact Me</h3>
+                    <p>You might want to hire me, connect, or work with me. It's simple, click what you want and
+                        fill the form that slides in!</p>
+                </div>
+
+                <div class="contact_inner">
+                    <div class="contact_box">
+                        <button data-aos="fade-up" data-aos-duration="1800">Front-End <i
+                                    class="fa fa-envelope-o"></i> </button>
+                    </div>
+
+                    <div class="contact_box">
+                        <button data-aos="fade-up" data-aos-duration="1800">Backend <i
+                                    class="fa fa-envelope-o"></i> </button>
+                    </div>
+
+                    <div class="contact_box">
+                        <button data-aos="fade-up" data-aos-duration="1800">Full Stack <i
+                                    class="fa fa-envelope-o"></i> </button>
+                    </div>
+
+                    <div class="contact_box">
+                        <button data-aos="fade-up" data-aos-duration="1800">WordPress <i
+                                    class="fa fa-envelope-o"></i> </button>
+                    </div>
+
+                    <div class="contact_box">
+                        <button data-aos="fade-up" data-aos-duration="1800">Connection <i
+                                    class="fa fa-envelope-o"></i> </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+{% if name %}
+            <div class="contact_form_sent" data-aos="fade-down" data-aos-duration="1500">
+                <div class="form_cancel_icon">
+                    <i class="fa fa-times"></i>
+                </div>
+
+                
+                <div class="form_sent" data-aos="fade-down" data-aos-duration="1500">
+                    <h3>Hello {{name}}, Thank you for getting in touch, I'll get back to you shortly!</h3>
+                </div>
+               
+            </div>
+           
+            {% endif %}
+
+
+
+            <div class="contact_forms">
+                <div class="form_cancel_icon">
+                    <i class="fa fa-times"></i>
+                </div>
+
+        
+
+                <div class="contact_form_inner" id="front_end">
+                    <div class="form_intro">
+                        <h3>Fill the form below to reach out!</h3>
+                    </div>
+                    <div class="form">
+                        <form action="" method="POST">
+                            {% csrf_token %}
+
+                            <div class="form_item">
+                                <input type="text" name="name" id="" placeholder="Full Name">
+                            </div>
+                            <div class="form_item">
+                                <input type="email" name="email" id="" placeholder="Email">
+                            </div>
+                            <div class="form_item">
+                                <input type="tel" name="phone" id="" placeholder="Phone">
+                            </div>
+                           
+                            <div class="form_item">
+                                <select id="" name="job_type">
+                                    <option value="Job Type">Job Type</option>
+                                    <option value="We want you in our company">We want you in our company</option>
+                                    <option value="Freelance">Freelance</option>
+                                    <option value="Onsite">Onsite</option>
+                                    <option value="I want to connect with you">I only want to connect with you</option>
+
+                                </select>
+                            </div>
+                            <div class="form_item textarea"><textarea type="text" name="description" id=""
+                                    placeholder="Description"></textarea></div>
+                            <div class="form_item" id="form_item_button">
+                                <button>Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+          
+            </div>
+
+
+            <div class="back-to-top">
+<a href="#hero"><i class="fa fa-angle-up"></i></a>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</body>
+
+</html>
