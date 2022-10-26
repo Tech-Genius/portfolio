@@ -597,7 +597,7 @@ font-family: 'Asap', sans-serif;
 
 .form .form_item{
     margin: 20px 0px;
-  
+
     /* justify-content: center; */
     justify-self: center;
 }
@@ -705,6 +705,23 @@ float: right;
     font-size: 20px;
     cursor: pointer;
 }
+
+.back-to-top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin:5px;
+}
+
+.back-to-top i{
+    color: white;
+    float: right;
+        background-image: linear-gradient(to left, rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+        padding: 10px;
+        border-radius: 50%;
+        font-size: 20px;
+        cursor: pointer;
+    }
 
 
 
