@@ -179,6 +179,9 @@ filter: drop-shadow(2px 4px 8px rgb(10, 8, 8)) !important;
     font-size: 60px;
     margin: 0;
 }
+.main_info #text h3 span{
+    font-size: 50px;
+}
 
 
 
@@ -787,6 +790,10 @@ float: right;
         font-size: 28px;
         margin: 0;
     }
+    .main_info #text h3 span{
+        font-size: 25px;
+    }
+    
     .contact_form_sent .form_sent h3{
         font-size: 25px;
     }
