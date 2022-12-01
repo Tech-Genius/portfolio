@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-)6nr)ev_gj$ixl^9ysvlfh*$)#&s_8ps%&*_%68e1y@_ni$b+d
 DEBUG = False
 
 ALLOWED_HOSTS = ['habeeb-portfolio.up.railway.app', '127.0.0.1','localhost']
-CSRF_TRUSTED_ORIGINS = ['https://habeeb-portfolio.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://habeeb-portfolio.up.railway.app', 'http://localhost']
 
 
 # Application definition
@@ -134,8 +134,10 @@ STATICFILES_STORAGE="whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
+EMAIL_HOST_USER = 'adebimpehabeeb8@gmail.com'
+EMAIL_HOST_PASSWORD = 'rmiyfdprziisvatt'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT =  587
 EMAIL_USE_TLS = True
+

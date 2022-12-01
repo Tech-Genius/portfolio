@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
-    <link href="{% static 'Images/faviconi.ico' %}" rel="icon" sizes="" type="image/png">
+    <link href="{% static 'Images/favicon.ico' %}" rel="icon" sizes="" type="image/png">
     <script src="{% static 'js/jquery-1.10.2.min.js' %}"></script>
  
     <title>Habeeb's Portfolio</title>
@@ -344,6 +344,17 @@
                     </div>
 
 
+                    <div class="projects_box" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <img src="{% static 'Images/metabnb-screenshot.png' %}" alt="">
+                        <div class="project_links">
+                            <a href="https://github.com/Tech-Genius/metabnb" target="_blank"><i
+                                    class="fa fa-github"></i></a>
+                            <a href="https://coderender-metabnb.netlify.app/" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+
+                    </div>
+
+
 
                     <div class="projects_box" data-aos="zoom-in-up" data-aos-duration="1500">
                         <img src="{% static 'Images/fitly-screenshot.png' %}" alt="">
@@ -414,33 +425,13 @@
             <div class="contact"><a name="contact"></a>
                 <div class="contact_intro">
                     <h3>Contact Me</h3>
-                    <p>You might want to hire me, connect, or work with me. It's simple, click what you want and
+                    <p>You might want to hire me, connect, or work with me. It's simple, click the button below and
                         fill the form that slides in!</p>
                 </div>
 
                 <div class="contact_inner">
                     <div class="contact_box">
-                        <button data-aos="fade-up" data-aos-duration="1800">Front-End <i
-                                    class="fa fa-envelope-o"></i> </button>
-                    </div>
-
-                    <div class="contact_box">
-                        <button data-aos="fade-up" data-aos-duration="1800">Backend <i
-                                    class="fa fa-envelope-o"></i> </button>
-                    </div>
-
-                    <div class="contact_box">
-                        <button data-aos="fade-up" data-aos-duration="1800">Full Stack <i
-                                    class="fa fa-envelope-o"></i> </button>
-                    </div>
-
-                    <div class="contact_box">
-                        <button data-aos="fade-up" data-aos-duration="1800">WordPress <i
-                                    class="fa fa-envelope-o"></i> </button>
-                    </div>
-
-                    <div class="contact_box">
-                        <button data-aos="fade-up" data-aos-duration="1800">Connection <i
+                        <button data-aos="fade-up" data-aos-duration="1800">Show Form <i
                                     class="fa fa-envelope-o"></i> </button>
                     </div>
 
@@ -481,17 +472,17 @@
                             {% csrf_token %}
 
                             <div class="form_item">
-                                <input type="text" name="name" id="" placeholder="Full Name">
+                                <input type="text" name="name" id="" placeholder="Full Name" required>
                             </div>
                             <div class="form_item">
-                                <input type="email" name="email" id="" placeholder="Email">
+                                <input type="email" name="email" id="" placeholder="Email" required>
                             </div>
                             <div class="form_item">
                                 <input type="tel" name="phone" id="" placeholder="Phone">
                             </div>
                            
                             <div class="form_item">
-                                <select id="" name="job_type">
+                                <select id="" name="job_type" required>
                                     <option value="Job Type">Job Type</option>
                                     <option value="We want you in our company">We want you in our company</option>
                                     <option value="Freelance">Freelance</option>
