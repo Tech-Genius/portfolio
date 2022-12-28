@@ -17,7 +17,7 @@
   }
 
 
-
+  html { scroll-behavior: smooth; }
 
 
 body{
@@ -44,7 +44,7 @@ body{
     overflow: hidden !important;
 
 z-index: 990;    
-background-image: linear-gradient(to left, rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+background-image: linear-gradient(to left, rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
 /* border-radius: 0px 100px 100px 0px; */
 height: 100vh;
 box-shadow: 3px 3px 3px rgb(10, 8, 8);
@@ -72,7 +72,7 @@ header{
     color: white;
     font-size: 20px;
     font-weight: 100 !important;
-    background-image: linear-gradient(to left, rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient(to left, rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     padding: 10px;
     border-radius: 50%;
 }
@@ -105,7 +105,7 @@ padding: 0;
   font-size: 15px;
 }
 .n_item i{
-    background-image: linear-gradient(to left, rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient(to left, rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     padding: 10px;
     border-radius: 50%;
 }
@@ -138,7 +138,7 @@ padding: 0;
 
 .main_info{
    height: 100vh;
-    background-image: linear-gradient(to right, rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient(to right,rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     box-shadow: 3px 3px 3px rgb(10, 8, 8);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -166,7 +166,8 @@ padding: 0;
 
 .main_info #img img{
 width: 100%;
-filter: drop-shadow(2px 4px 8px rgb(10, 8, 8)) !important;
+filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.9)) !important;
+
 }
 
 
@@ -201,7 +202,7 @@ font-family: 'Asap', sans-serif;
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 3px 3px 3px rgba(85, 3, 78, 0.9); 
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9); 
     /* rgb(10, 8, 8) */
 }
 
@@ -210,7 +211,7 @@ font-family: 'Asap', sans-serif;
     padding: 15px;
 
     border-radius: 50%;
-    background-image: linear-gradient(to right, rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient(to right, rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     color: white;
 }
 
@@ -229,7 +230,7 @@ font-family: 'Asap', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
     margin: 0; 
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -239,7 +240,7 @@ font-family: 'Asap', sans-serif;
 font-family: 'Asap', sans-serif;
     word-spacing: 1px;
     font-weight: lighter;
-    color: rgb(226, 15, 241);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 
@@ -257,14 +258,17 @@ font-family: 'Asap', sans-serif;
 }
 .service_box img{
     width: 100%;
-    filter: drop-shadow(2px 4px 8px rgba(85, 3, 78, 0.9)) !important;
+    filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.9)) !important;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    padding: 20px;
 }
 
 
 .service .service_inner .service_box .top_icon{
     font-size: 50px;
     margin: 0; 
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;  
 }
@@ -273,7 +277,7 @@ font-family: 'Asap', sans-serif;
     line-height: 50px;
     font-size: 42px;
     margin: 0; 
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
 }
@@ -284,13 +288,13 @@ font-family: 'Asap', sans-serif;
     font-family: 'Asap', sans-serif;
     word-spacing: 1px;
     color: rgba(0, 0, 0, 0.781);
-    /* color: rgb(226, 15, 241); */
+    /* color: rgba(0, 0, 0, 0.9); */
 }
 
 
 .service .service_inner .service_box button{
     padding: 18px 45px;
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     color: white;
     border-radius: 40px;
     outline: none;
@@ -324,7 +328,7 @@ font-family: 'Asap', sans-serif;
     font-size:40px;
     margin: 0; 
    text-align: center;
-   background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+   background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
    -webkit-text-fill-color: transparent;
    -webkit-background-clip: text;
 }
@@ -333,7 +337,7 @@ font-family: 'Asap', sans-serif;
     font-family: 'Asap', sans-serif;
         word-spacing: 1px;
         font-weight: lighter;
-        color: rgb(226, 15, 241);
+        color: rgba(0, 0, 0, 0.9);
         text-align: center;
 }
 
@@ -352,7 +356,7 @@ font-family: 'Asap', sans-serif;
     cursor: pointer;
 }
 .technology_box h3{
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-family: 'Asap', sans-serif;
@@ -361,7 +365,7 @@ font-family: 'Asap', sans-serif;
 
 
 .technology_img{
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9)); 
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9)); 
     width: 60px;
     height: 60px;
    border-radius: 50%;
@@ -400,7 +404,7 @@ font-family: 'Asap', sans-serif;
     font-size:40px;
     margin: 0; 
    text-align: center;
-   background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+   background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
    -webkit-text-fill-color: transparent;
    -webkit-background-clip: text;
 }
@@ -409,7 +413,7 @@ font-family: 'Asap', sans-serif;
     font-family: 'Asap', sans-serif;
         word-spacing: 1px;
         font-weight: lighter;
-        color: rgb(226, 15, 241);
+        color: rgba(0, 0, 0, 0.9);
         text-align: center;
 }
 
@@ -428,14 +432,14 @@ font-family: 'Asap', sans-serif;
     border-radius: 10px;
     overflow: hidden;
     margin: 20px ;
-    -webkit-box-shadow: 2px 6px 23px 9px rgba(85, 3, 78, 0.9);
-    -moz-box-shadow: 2px 6px 23px 9px rgba(85, 3, 78, 0.459);
-    box-shadow: 2px 6px 23px 9px rgba(85, 3, 78, 0.473);
+    -webkit-box-shadow: 2px 6px 23px 9px rgba(3, 19, 70, 0.9);
+    -moz-box-shadow: 2px 6px 23px 9px rgba(7, 12, 92, 0.9);
+    box-shadow: 2px 6px 23px 9px rgba(2, 13, 71, 0.5);
     position: relative;
     display: grid;
     place-items: center;
     cursor: pointer;
-    background: rgba(85, 3, 78, 0.9);
+    background: rgba(0, 0, 0, 0.9);
 }
 .projects_box:hover img{
   transform: scale(1.25);
@@ -452,7 +456,7 @@ font-family: 'Asap', sans-serif;
 .project_links a{
     padding: 10px;
     color: white;
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     margin: 10px 0px;
     border-radius: 10px 0px 0px 10px;
 }
@@ -480,7 +484,7 @@ font-family: 'Asap', sans-serif;
     font-size:40px;
     margin: 0; 
    text-align: center;
-   background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+   background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
    -webkit-text-fill-color: transparent;
    -webkit-background-clip: text;
 }
@@ -489,7 +493,7 @@ font-family: 'Asap', sans-serif;
     font-family: 'Asap', sans-serif;
         word-spacing: 1px;
         font-weight: lighter;
-        color: rgb(226, 15, 241);
+        color: rgba(0, 0, 0, 0.9);
         text-align: center;
 }
 
@@ -505,7 +509,7 @@ font-family: 'Asap', sans-serif;
 
 .contact_box button{
     padding: 18px 45px;
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     color: white;
     border-radius: 40px;
     outline: none;
@@ -526,7 +530,7 @@ font-family: 'Asap', sans-serif;
 
 .contact_form_sent{
     display: grid;
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9)) !important;
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9)) !important;
     position:fixed;
     height: 100%;
     width:80%;
@@ -554,7 +558,7 @@ font-family: 'Asap', sans-serif;
   }
   
   ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     border-radius: 10px;
     height: 2px;
   }
@@ -566,7 +570,7 @@ font-family: 'Asap', sans-serif;
   } */
 
 .contact_forms{
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     padding:0px 0px;
     position:fixed;
   display: none;
@@ -589,7 +593,7 @@ font-family: 'Asap', sans-serif;
 .form_intro h3{
     font-family: 'Oswald', sans-serif;
     font-size:40px; 
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
 }
@@ -609,13 +613,13 @@ font-family: 'Asap', sans-serif;
     outline: none;
     border: none;
     background-color: #3333;
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
     padding: 0px 20px;
-    caret-color: rgb(226, 15, 241);
+    caret-color: rgba(0, 0, 0, 0.9);
   
-    /* background-image:  linear-gradient(315deg, rgb(226, 15, 241),rgba(85, 3, 78, 0.9) );
+    /* background-image:  linear-gradient(315deg, rgba(0, 0, 0, 0.9),rgba(85, 3, 78, 0.9) );
     background-origin: border-box;
     background-clip: content-box, border-box; */
 border: 2px;
@@ -625,12 +629,12 @@ box-shadow:inset 0 0 10px #000000;
 }
 
 .form .form_item input:-webkit-autofill {
-    -webkit-text-fill-color:rgb(226, 15, 241) ;
+    -webkit-text-fill-color:rgba(0, 0, 0, 0.9) ;
  
-    caret-color: rgb(226, 15, 241);
+    caret-color: rgba(0, 0, 0, 0.9);
   }
   -webkit-text-fill-color{
-    color:  rgb(226, 15, 241);
+    color:  rgba(0, 0, 0, 0.9);
   }
 
 
@@ -643,8 +647,8 @@ box-shadow:inset 0 0 10px #000000;
     outline: none;
     border-radius: 5px;
  
-border: 2px solid rgb(226, 15, 241) ;
-color: rgb(226, 15, 241);
+border: 2px solid rgb(7, 61, 122) ;
+color: rgba(0, 0, 0, 0.9);
 }
 
 
@@ -658,12 +662,12 @@ color: rgb(226, 15, 241);
     outline: none;
     border: none;
     background-color: #3333;
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
-    caret-color: rgb(226, 15, 241);
+    caret-color: rgba(0, 0, 0, 0.9);
   
-    /* background-image:  linear-gradient(315deg, rgb(226, 15, 241),rgba(85, 3, 78, 0.9) );
+    /* background-image:  linear-gradient(315deg, rgba(0, 0, 0, 0.9),rgba(85, 3, 78, 0.9) );
     background-origin: border-box;
     background-clip: content-box, border-box; */
 border: 2px;
@@ -678,7 +682,7 @@ box-shadow:inset 0 0 10px #000000;
 }
 .form_item button{
     padding: 15px 35px;
-    background-image: linear-gradient( rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient( rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     color: white;
     border-radius: 40px;
     outline: none;
@@ -699,7 +703,7 @@ box-shadow:inset 0 0 10px #000000;
 .form_cancel_icon i{
 color: white;
 float: right;
-    background-image: linear-gradient(to left, rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
+    background-image: linear-gradient(to left, rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
     padding: 10px;
     border-radius: 50%;
     font-size: 20px;
@@ -716,11 +720,12 @@ float: right;
 .back-to-top i{
     color: white;
     float: right;
-        background-image: linear-gradient(to left, rgb(226, 15, 241), rgba(85, 3, 78, 0.9));
-        padding: 10px;
+        background-image: linear-gradient(to left, rgb(7, 61, 122), rgba(0, 0, 0, 0.9));
+        padding: 10px 15px;
         border-radius: 50%;
-        font-size: 20px;
+        font-size: 25px;
         cursor: pointer;
+        margin-bottom: 20px;
     }
 
 
@@ -743,9 +748,11 @@ float: right;
     }
     .service .service_inner{
         grid-template-columns: 1fr;
+        margin: 20px 0px;
     }
     .service .service_inner .service_box{
         padding: 10px 0px;
+        margin: 10px 0px;
     }
     .service .service_inner #img{
         grid-row: 1;
@@ -754,7 +761,7 @@ float: right;
     }
     .service .service_inner #img img{
         height: 250px;
-        width: auto;
+        width: 95%;
     }
 
     .projects_inner{
@@ -779,6 +786,10 @@ float: right;
     }
     .right_content, .contact_form_sent{
         width: 85%;
+    }
+    .service .service_inner #img img{
+        height: 200px;
+        width: 90%;
     }
     .contact_forms{
         width: 85%;
